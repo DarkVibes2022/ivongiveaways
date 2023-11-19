@@ -159,7 +159,7 @@ module.exports = {
         new ButtonBuilder()
         .setLabel('Twitter')
         .setStyle(ButtonStyle.Link)
-        .setURL(`https://twitter.com/ivongiveaways`))
+        .setURL(`https://x.com/MixedMCGames?t=LzQPQdb3jToLJXEWxDtKlQ&s=09`))
 
       giveawayChannel.send({ embeds: [des], components: [row] });
     }
@@ -168,7 +168,7 @@ module.exports = {
       let giveaway = new Discord.EmbedBuilder()
         .setAuthor({ name: `Bonus Entries Alert!` })
         .setDescription(
-          `**${bonusRole}** Has **${bonusEntries}** Extra Entries in this giveaway!`
+          `**${bonusRole}** has **${bonusEntries}** Extra Entries in this giveaway!`
         )
         .setColor("#2F3136")
         .setTimestamp();
