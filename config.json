@@ -1,9 +1,9 @@
 {
   "token": "", 
-  "prefix": "!",
+  "prefix": "g!",
   "bug": "1060072882551664670",
   "everyoneMention": false,
-  "copyright": "IVON",
+  "copyright": "MMC Giveaways",
   "hostedBy": true,
   "MONGODB_URI" : "",
   "privateMessageInformation" : true
