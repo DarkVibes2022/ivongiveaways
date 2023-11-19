@@ -15,9 +15,7 @@ module.exports = async (client) => {
   console.log(`[ / | Slash Command ] - ✅ Loaded all slash commands!`)
   console.log(`[STATUS] ${client.user.tag} is now online!`);
   const activities = [
-    'Your Giveaways',
-    '/help',
-    'www.ivongiveaways.com'
+    'giveaways',
   ]
 
   setInterval(() => {
